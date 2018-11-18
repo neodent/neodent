@@ -298,9 +298,9 @@ section
 }
 .button_2 a
 {
-	color: #57ccc3;
+	color: #FFFFFF;
 }
-.button_2:hover
+.button_2
 {
 	background: #57ccc3;
 }
