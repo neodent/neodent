@@ -1318,6 +1318,6 @@ section
 {
 	max-width: 100%;
   object-fit: cover;
-  width: 278px;
+  width: 278px !important;
   height: 370px;
 }
