@@ -334,6 +334,7 @@ section
 	width: 100vw;
 	z-index: 100;
 	background: #FFFFFF;
+	z-index: 99999999999;
 }
 .header_content
 {
@@ -646,6 +647,7 @@ section
 	top: 218px;
 	left: 0;
 	width: 100%;
+	z-index: 999 !important;
 }
 .home_content
 {
@@ -664,6 +666,7 @@ section
 	font-weight: 500;
 	color: #828282;
 	margin-top: 1px;
+	text-shadow: 1px 1px 1px grey;
 }
 
 /*********************************
@@ -688,7 +691,9 @@ section
 }
 .blog_post_image img
 {
-	max-width: 100%;
+	width: 100%;
+	object-fit: cover;
+	height: 320px;
 }
 .blog_post_date
 {
